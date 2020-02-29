@@ -42,8 +42,6 @@ setup(
 
       packages = [ 'unidecode' ],
 
-      provides = [ 'unidecode' ],
-
       cmdclass = { 'test': TestCommand },
 
       classifiers = [
