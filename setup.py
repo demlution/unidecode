@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 setup(
-      name='Unidecode',
+      name='unidecode',
       version='0.04.13',
       description='ASCII transliterations of Unicode text',
       license='GPL',
