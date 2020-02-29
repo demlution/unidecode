@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 from distutils.core import Command, setup
 from sys import version_info
@@ -31,7 +31,8 @@ class TestCommand(Command):
 
 		result = unittest.TextTestRunner(verbosity=2).run(suite)
 
-setup(name='Unidecode',
+setup(
+      name='Unidecode',
       version='0.04.13',
       description='ASCII transliterations of Unicode text',
       license='GPL',
@@ -52,5 +53,5 @@ setup(name='Unidecode',
 	"Programming Language :: Python :: 3",
 	"Topic :: Text Processing",
 	"Topic :: Text Processing :: Filters",
-	],
+      ],
 )
