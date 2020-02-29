@@ -1,5 +1,4 @@
-
-from distutils.core import setup
+from setuptools import setup
 
 setup(
       name='unidecode',
@@ -9,4 +8,5 @@ setup(
       long_description=open("README").read(),
       author='Tomaz Solc',
       author_email='tomaz.solc@tablix.org',
+      packages=['unidecode'],
 )
